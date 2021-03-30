@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stdDogWidth">135dp</dimen>
+    <dimen name="stdDogHeight">442dp</dimen>
+    <dimen name="stdviewHeight">41dp</dimen>
+    <dimen name="stdTitleTxtSize">34sp</dimen>
+    <dimen name="stdTitlePadding">34dp</dimen>
+    <dimen name="stdDesctextSize">20sp</dimen>
+    <dimen name="stdDescPadding">14dp</dimen>
+    <dimen name="stdBtnTextSize">20sp</dimen>
+    <dimen name="stdBtnPadding">14dp</dimen>
+    <dimen name="stdResTextSize">14sp</dimen>
+    <dimen name="stdResPadding">9dp</dimen>
+
+    <dimen name="lrgDogWidth">199dp</dimen>
+    <dimen name="lrgDogHeight">395dp</dimen>
+    <dimen name="lrgviewHeight">27dp</dimen>
+    <dimen name="lrgTitleTxtSize">23sp</dimen>
+    <dimen name="lrgTitlePadding">15dp</dimen>
+    <dimen name="lrgDesctextSize">14sp</dimen>
+    <dimen name="lrgDescPadding">9dp</dimen>
+    <dimen name="lrgBtnTextSize">16sp</dimen>
+    <dimen name="lrgBtnPadding">9dp</dimen>
+    <dimen name="lrgResTextSize">18sp</dimen>
+    <dimen name="lrgResPadding">9dp</dimen>
+
+    <dimen name="xlrgDogWidth">199dp</dimen>
+    <dimen name="xlrgDogHeight">395dp</dimen>
+    <dimen name="xlrgviewHeight">27dp</dimen>
+    <dimen name="xlrgTitleTxtSize">25sp</dimen>
+    <dimen name="xlrgTitlePadding">15dp</dimen>
+    <dimen name="xlrgDesctextSize">14sp</dimen>
+    <dimen name="xlrgDescPadding">9dp</dimen>
+    <dimen name="xlrgBtnTextSize">16sp</dimen>
+    <dimen name="xlrgBtnPadding">9dp</dimen>
+    <dimen name="xlrgResTextSize">21sp</dimen>
+    <dimen name="xlrgResPadding">9dp</dimen>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/lrgDogWidth"
+        android:layout_height="@dimen/lrgDogHeight"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/sled" />
+
+    <TableLayout
+        android:id="@+id/tblLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@color/titleB">
+
+        <TableRow
+            android:id="@+id/tblrow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_height="@dimen/lrgviewHeight"
+                android:padding="@dimen/lrgDescPadding" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dog1"
+                android:textSize="@dimen/lrgTitleTxtSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tblrow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <View android:layout_height="@dimen/lrgviewHeight"/>
+
+            <TextView
+                android:id="@+id/descTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/xlrgResPadding"
+                android:text="@string/descTextView"
+                android:textColor="#000000"
+                android:textSize="@dimen/xlrgDesctextSize"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tblrow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/lrgBtnPadding">
+
+            <View android:layout_height="@dimen/lrgviewHeight" />
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tblrow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <View android:layout_height="@dimen/lrgviewHeight" />
+
+            <TextView
+                android:id="@+id/resTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/lrgResPadding"
+                android:textSize="@dimen/lrgResTextSize" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
